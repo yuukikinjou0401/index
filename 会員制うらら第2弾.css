@@ -1,0 +1,255 @@
+body {
+    max-width: 1000px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header {
+    background: #333;
+    padding:1rem 0;
+
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    z-index: 1;
+ display: flex;
+   
+    
+
+}
+nav{ display: flex;
+   }
+.logo{
+    margin-left: 10px;
+    color: white;
+}
+.btn-menu{padding-left: 10px;}
+
+
+
+
+.h2{
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    background-image:linear-gradient(
+        transparent 50%, #ff6 50%
+    ) ;
+    padding-bottom: .25rem;
+}
+
+
+section {
+    height: 50vh;
+    min-height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;　　　　
+    す
+
+}
+
+.hero {
+    background-image: url(S__4145163.jpg);
+    background-size: auto, cover;
+    height: 50vh;
+    text-align: center;
+    padding-top: 10vh;
+    object-fit: cover;
+}
+.title1{
+    font-family: 'Shippori Mincho B1', serif;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+.title {
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color:white;
+}
+
+.left {
+    display:flex;
+    padding-top: 40%;
+}
+
+img.sample {
+    float: left;
+
+    max-width: 40%;
+}
+
+article blockquote{
+    position: relative;
+    padding: 1rem 3rem 1rem ;
+}
+article blockquote::before,
+article blockquote::after{
+    font-size: 6rem;
+    font-family: georgia,serif;
+    color: #ccc;
+    position: absolute;
+    line-height: 0;
+}
+article blockquote::before{
+    content: '\201C';
+    top: 2.5rem;
+    left:0;
+}
+article blockquote::after{
+    content: '201D';
+    bottom: .5rem;
+    right:0;
+}
+section .right{
+    height: 50vh;
+    min-height: 50vh;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    text-align: right;
+    background: right;
+    
+
+}
+
+.right{
+    background-image: url(バー写真/bar-g1abdc18c9_640.jpg);
+    text-align: center;
+    padding-top: 10vh;
+    margin-left : 200px;
+    padding: 5.5rem 1rem 3rem;
+    
+}
+
+section .service{
+    height: 50vh;
+    min-height: 50vh;
+    
+    background-size: right;
+    background-repeat: no-repeat;
+    
+} 
+.service{
+    background-image: url(バー写真/martini-glass-gd6e20ab3b_640.jpg);
+    text-align: center;
+    padding-top: 10vh;
+    margin-right: 200px;
+}
+
+
+h1 {
+    font-weight: 36px;
+}
+
+h2 {
+    font-weight: 24px;
+}
+
+figcaption {
+    font-weight: 12px;
+}
+
+a:hover {
+    background-color: blue;
+}
+
+a:active {
+    background-color: lightpink;
+    color: lightblue;
+}
+
+a {
+    animation: purupuru2 0.1s infinite;
+}
+
+@keyframes purupuru2 {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(0.98, 0.95)
+    }
+}
+
+
+strong.gokubuto {
+    background: linear-gradient (transparent 10%, yellow 10%);
+}
+
+body {
+    text-align: center;
+    margin: 0 auto;
+}
+
+form {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.sample ul{
+display: flex;
+list-style-type: none;
+}
+
+.sample img{
+    width: 300px;
+height: 300px;
+margin-right: 10px ;
+}
+
+.last ul{
+    display: flex; 
+    list-style-type: none;
+    
+}
+.last li{
+    margin: 75px ;
+    color: #fff;
+}
+
+.last{
+    background: #949087;
+    text-align: center;
+    padding:3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and(max-width: 600px ) {
+    body {
+        font-size: 1.6vw;
+    }
+
+    h1 {
+        font-size: 3.6vw;
+    }
+
+    h2 {
+        font-size: 2.4vw;
+    }
+
+    figcaption {
+        font-size: 1.2vw;
+    }
+
+    a {
+        font-size: 5.0vw;
+    }
+ .img{max-width: 10px;}
+}
